@@ -112,7 +112,15 @@ INNER JOIN Bookings ON Customers.CustomerID=Bookings.CustomerID;**
 
 ![image](https://github.com/user-attachments/assets/fdb6972a-5a5a-47d9-ad4b-df15a022cc21)
 
+Task 3: Create a REPLACE Statement.
 
+Create a SQL REPLACE statement that updates the cost of the Sweet from $95.25 to $20.25. The expected output result should be the same as that shown in the following screenshot :
+**
+**REPLACE INTO Products (Products,Cost) VALUES ("Sweet",20.25);**
+**
+**SELECT *
+FROM Products;**
 
+![image](https://github.com/user-attachments/assets/a17b7cf9-8cd3-448a-a5fb-c996bb303f3e)
 
 
