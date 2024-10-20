@@ -82,6 +82,9 @@ VALUES
 ("Meat",82.50);
 
 The Products table is shown in the following screenshot :
+![image](https://github.com/user-attachments/assets/9fc3903b-b5ab-4ab5-8335-fb17a85d1be5)
+
+
 
 
 
