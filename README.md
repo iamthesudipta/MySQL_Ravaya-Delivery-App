@@ -123,4 +123,30 @@ FROM Products;**
 
 ![image](https://github.com/user-attachments/assets/a17b7cf9-8cd3-448a-a5fb-c996bb303f3e)
 
+Task 4: Create Constraints.
+
+Create a new table called "DeliveryAddress" in the Yours_Store database with the following columns and constraints :
+ID: INT PRIMARY KEY
+
+Address: VARCHAR(255) NOT NULL
+
+Type: NOT NULL DEFAULT "Private"
+
+CustomerID: INT NOT NULL FOREIGN KEY referencing CustomerID in the Customers table
+
+**CREATE TABLE DeliveryAddress (
+ID INT NOT NULL PRIMARY KEY,
+Address VARCHAR(255) NOT NULL,
+Type VARCHAR(100) NOT NULL DEFAULT"Private",
+CustomerID INT NOT NULL, 
+FOREIGN KEY(CustomerID) References Customers(CustomerID)
+);**
+![image](https://github.com/user-attachments/assets/f0ccbcbc-9037-4efa-b2a0-21a2266ce66a)
+
+![image](https://github.com/user-attachments/assets/268962f5-52ce-4647-9df7-ea491eb80106)
+
+
+
+
+
 
