@@ -44,4 +44,30 @@ The Customers table content is shown in the following screenshot :
 
 ![Image](https://github.com/user-attachments/assets/53fe954b-4d13-4228-96b0-905aeadecea7)
 
+5. The code to create the Bookings table is as follows :
+
+CREATE TABLE Bookings(
+BookingID INT, Booking DATE,Quantity INT, CustomerID INT);
+
+6. The code to populate the Bookings table with data is as follows :
+
+INSERT INTO Bookings
+(BookingID, Booking, Quantity, CustomerID)
+VALUES
+(10,"2024-10-1",15,1),
+(11,"2024-10-2",35,2),
+(12,"2024-10-3",45,3),
+(13,"2024-10-4",55,4),
+(14,"2024-10-5",95,5),
+(15,"2024-10-6",105,6),
+(16,"2024-10-7",205,7),
+(17,"2024-10-8",310,8);
+
+The Bookings table is shown in the following screenshot:
+
+SELECT * FROM Bookings;
+
+![image](https://github.com/user-attachments/assets/e9d9e57c-b999-4574-9d0d-9e85f10742f8)
+
+
 
