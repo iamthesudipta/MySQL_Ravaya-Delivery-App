@@ -86,8 +86,31 @@ The Products table is shown in the following screenshot :
 ![image](https://github.com/user-attachments/assets/9fc3903b-b5ab-4ab5-8335-fb17a85d1be5)
 
 
+Task Instructions :
+
+Task 1: Filter data using the WHERE Clause and Logical Operators.
+
+Create SQL statement to print all records from Bookings table for the following bookings dates using the BETWEEN operator: 2024-10-3, 2021-10-6 and 2024-10-8.
+
+The expected output result should be the same as shown in the following screenshot :
+
+**SELECT *
+FROM Bookings
+WHERE Booking between "2024-10-3" and "2024-10-8";**
+
+![image](https://github.com/user-attachments/assets/f5682cf4-c72c-43f0-aed7-8a39b54a309d)
 
 
+Task 2: Create a JOIN Query.
+
+Create a JOIN SQL statement on the Customers and Bookings tables. The statement must print the customers full names and related bookings IDs from the date 2024-04-05.
+
+**SELECT *
+FROM Customers
+INNER JOIN Bookings ON Customers.CustomerID=Bookings.CustomerID;**
+
+
+![image](https://github.com/user-attachments/assets/fdb6972a-5a5a-47d9-ad4b-df15a022cc21)
 
 
 
