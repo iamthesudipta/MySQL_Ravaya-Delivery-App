@@ -69,5 +69,21 @@ SELECT * FROM Bookings;
 
 ![image](https://github.com/user-attachments/assets/e9d9e57c-b999-4574-9d0d-9e85f10742f8)
 
+7. The code to create the products is as follows :
+
+CREATE TABLE Products(Products VARCHAR(255)PRIMARY KEY, Cost Decimal(4,2));
+
+INSERT INTO Products(Products, Cost)
+VALUES
+("Biscut",25.50),
+("Baby Food",45.95),
+("Sweet",95.25),
+("Rice",75.10),
+("Meat",82.50);
+
+The Products table is shown in the following screenshot :
+
+
+
 
 
