@@ -145,6 +145,19 @@ FOREIGN KEY(CustomerID) References Customers(CustomerID)
 
 ![image](https://github.com/user-attachments/assets/268962f5-52ce-4647-9df7-ea491eb80106)
 
+Task 5: Alter Table Structure.
+
+Create a SQL statement that adds a new column called '**Products**' to the Courses table.
+
+GroupProducts: VARCHAR(255)
+
+**ALTER TABLE Products
+ADD  GroupProducts VARCHAR(255);**
+![image](https://github.com/user-attachments/assets/8fde53ac-e6c7-4ee3-aab4-2470bd8293f9)
+
+Task 6: Create a Subquery.
+
+
 
 
 
