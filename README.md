@@ -157,6 +157,18 @@ ADD  GroupProducts VARCHAR(255);**
 
 Task 6: Create a Subquery.
 
+Create a SQL statement with a subquery that prints the full names of all customers who made bookings on the following date: 2024-10-5.
+
+**SELECT *
+FROM customers 
+WHERE CustomerID=(Select CustomerID FROM Bookings WHERE Booking = "2024-10-5");**
+![image](https://github.com/user-attachments/assets/ee55359a-ba56-4b68-a34e-ec50307abf00)
+
+
+
+
+
+
 
 
 
