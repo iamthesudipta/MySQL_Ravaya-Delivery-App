@@ -141,6 +141,8 @@ Type VARCHAR(100) NOT NULL DEFAULT"Private",
 CustomerID INT NOT NULL, 
 FOREIGN KEY(CustomerID) References Customers(CustomerID)
 );**
+
+
 ![image](https://github.com/user-attachments/assets/f0ccbcbc-9037-4efa-b2a0-21a2266ce66a)
 
 ![image](https://github.com/user-attachments/assets/268962f5-52ce-4647-9df7-ea491eb80106)
@@ -153,6 +155,8 @@ GroupProducts: VARCHAR(255)
 
 **ALTER TABLE Products
 ADD  GroupProducts VARCHAR(255);**
+
+
 ![image](https://github.com/user-attachments/assets/8fde53ac-e6c7-4ee3-aab4-2470bd8293f9)
 
 Task 6: Create a Subquery.
@@ -162,6 +166,8 @@ Create a SQL statement with a subquery that prints the full names of all custome
 **SELECT *
 FROM customers 
 WHERE CustomerID=(Select CustomerID FROM Bookings WHERE Booking = "2024-10-5");**
+
+
 ![image](https://github.com/user-attachments/assets/ee55359a-ba56-4b68-a34e-ec50307abf00)
 
 
